@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 76px;
+  font-family: Circular, Helvetica, Arial, sans-serif;
+  color: #484848;
+  background-color: #fff;
+  border: 1px solid #DCE0E0;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+header .nav a.active {
+  border-bottom: 3px solid red;
+}
+.logo {
+  width: 138px;
+  height: 61px;
+  padding: 15px 20px;
+  float: left;
+  border-top: none;
+  border-bottom-color: transparent;
+}
+
+.logo:hover {
+  background-color: #F5F5F5;
+  cursor: pointer;
+}
+
+.logo img {
+  width: 100px;
+  height: 31px;
+}
+.imglogo{
+  margin:43%;
+}
+.iconHeader{
+  margin-left:0% ;padding:10px 19px 9px 24px;
+}
+.imgIcon{
+  background-color: black;
+}
+.btnDro{
+  display: flex;margin: 2px;
+                        padding: 14px 16px;
+                        justify-content: center;
+                        align-items: flex-start;
+                        gap: 121.69px;border-radius: 12px;
+background: #F3F3F2;
+}.date {
+  padding: 10px;
+                    width: 113%;
+                    background: #F3F3F2;
+                    margin-left: 81px;
+                    font-style: normal;
+                    line-height: 34px;
+}
+.logoImg{
+  margin:46%;
+}
+.icondate{
+  justify-content: center;
+  align-items: center;
+  
+  border-radius: 8px;
+  background: #FFF;
+} .nav a.active {
+  border-bottom: 3px solid red;
+}
+ul {
+
+  padding: 15px 20px;
+  border-top: none;
+  color: #0d0101;
+  display: flex;
+  align-items: flex-start;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.svg{
+margin-left: 85%;  
+background-color: #ffffff;
+border-radius: 100px;
+padding:7px
+}
+svg{
+  padding:7px
+}
+.icon{
+  justify-content: center;
+}
+.sidenav {
+
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 134px;
+  left: 0;
+  margin-bottom: 28px;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  padding-top: 20px;
+  justify-items: center;
+  border: 1px solid #DCE0E0;
+  border-top: none;
+  border-bottom-color: transparent;
+}
+
+.sidenav img {
+  padding: 14px 21px 9px 24px;
+  ;
+  justify-content: center;
+  text-decoration: none;
+
+  display: block;
+}
+.btnNeg{
+  padding: 10px;
+                    width: 109%;
+                    background: #F3F3F2;
+                    margin-left: 142px;
+                    font-style: normal;
+                  
+                    line-height: 20px;
+}
+.iconeNeg{
+  width: 32px;
+  height: 32px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  border-radius: 8px;
+  background: #FFF;
+}.iconePos{
+  width: 32px;
+             height: 32px;
+             padding: 8px;
+             justify-content: center;
+             margin-left: 17px;
+          
+             border-radius: 8px;
+             background: #FFF;
+}
+.sec {
+  font-family: Circular, Helvetica, Arial, sans-serif;
+  color: #484848;
+  background-color: #fff;
+  border: 1px solid #DCE0E0;
+  border-radius: 0px;
+
+}
+
+span{
+  color: black;
+}
+
+.site-content {
+
+  margin: 100px auto;
+  width: 750px;
+  font-family: Circular, Helvetica, Arial, sans-serif;
+}
+
+
+
+.prices {
+  width: 953px;
+  height: 330px;
+  margin-top: 129px;
+  border-radius: 20px;
+}
+
+.prices p {
+
+  
+  /* color: #484848; */
+  margin-left: 5px;
+  color: #717171;
+
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+}
+.prices h6 {
+
+  
+  /* color: #484848; */
+  margin-left: 5px;
+  color: #000000;
+
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+}
+
+.img {
+  display: inline-block;
+  margin: 30px 5px 0 5px;
+  border-radius: 20px;
+  border: 1px solid rgba(17, 17, 17, 0.10);
+
+
+}
+
+.img:last-child {
+  margin-right: 0;
+}
+
+.img img {
+  width: 301px;
+  height: 206px;
+  border-radius: 20px;
+border: 1px solid rgba(17, 17, 17, 0.10);
+
+
+}
+
+.price-stamp {
+  margin: -200px 0 0 12px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 22px;
+  text-shadow: 0 0 6px #615e61;
+}
+
+.description {
+  margin: 180px 11px 0 0;
+  font-size: 14px;
+  color: #484848;
+}
+
+#datepicker {
+  margin-left: 2%;
+  color: #111;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  position: 2px;
+  padding: 6px;
+}
