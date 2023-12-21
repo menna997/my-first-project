@@ -5,6 +5,13 @@
   font-family: 'Inter', sans-serif;
 }
 
+.icon {
+  justify-content: center;
+  overflow: scroll;
+  height: 85%;
+}
+
+
 .dropdown-toggle::after {
   display: inline-block;
   margin-left: 0.255em;
@@ -16,10 +23,7 @@
   border-left: 0.3em solid transparent;
 }
 
-.icon {
-  overflow: scroll;
-  height: 85%;
-}
+
 
 header {
   position: fixed;
@@ -33,15 +37,7 @@ header {
   border-top: none;
   border-right: none;
   border-left: none;
-}
-
-.navAc {
-  color: #111;
-
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 20px;
+  z-index: 1;
 }
 
 .nav-link active {
@@ -54,7 +50,7 @@ header {
   line-height: 20px;
 }
 
-.nav-link ex {
+.nav-link experiences {
   color: #717171;
 
   font-size: 14px;
@@ -63,15 +59,6 @@ header {
   line-height: 20px;
 }
 
-.nav-item .navEx {
-  color: #717171;
-
-
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
-}
 
 .logo {
   width: 138px;
@@ -125,7 +112,7 @@ header {
   background: #111;
 }
 
-.any {
+.toggle-down {
   color: #111;
   font-size: 15px;
   font-style: normal;
@@ -163,10 +150,9 @@ ul.vertical-menu {
 }
 
 .cardImg {
-  background-image: url(img/TQv9Req7ZME40dmudtRtkwz9lcQ.webp.svg);
 
   width: 100%;
-  height: 200px;
+  height: 100%;
   display: inline-block;
 
   border-radius: 20px 20px 0px 0px;
@@ -175,133 +161,14 @@ ul.vertical-menu {
   background-position: center center
 }
 
-.cardImg1 {
-  background-image: url(img/afIWyPD7bAqXpOTuGYeO4FzrnU.webp.svg);
-
+.cardImg img {
   width: 100%;
-  height: 200px;
-  display: inline-block;
-
-  border-radius: 20px 20px 0px 0px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center
-}
-
-.cardImg2 {
-  background-image: url(img/wTSsHOfD0gXYkODZBWWWOfdkw.webp.svg);
-
-  width: 100%;
-  height: 200px;
-  display: inline-block;
-
-  border-radius: 20px 20px 0px 0px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center
-}
-
-.cardImg3 {
-  background-image: url(img/3E8SIyOR9oYK20P1hy1BtAelgI.webp.svg);
-
-  width: 100%;
-  height: 200px;
-  display: inline-block;
-
-  border-radius: 20px 20px 0px 0px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center
-}
-
-.cardImg4 {
-  background-image: url(img/0RUEx3es60Z3CuB1eFkBxcPxmA.webp.svg);
-
-  width: 100%;
-  height: 200px;
-  display: inline-block;
-
-  border-radius: 20px 20px 0px 0px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center
-}
-
-.cardImg5 {
-  background-image: url(img/3fX1fjZlrzbcXKbTqPD7FpY4Z8.webp.svg);
-
-  width: 100%;
-  height: 200px;
-  display: inline-block;
-
-  border-radius: 20px 20px 0px 0px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center
-}
-
-.cardImg6 {
-  background-image: url(img/lIXcszNPyY7PC0yaVFg5TBtmfA.webp.svg);
-
-  width: 100%;
-  height: 200px;
-  display: inline-block;
-
-  border-radius: 20px 20px 0px 0px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center
-}
-
-.cardImg7 {
-  background-image: url(img/ZEBw6ci9AF1cD4D1sFdPW3Mj5rE.webp.svg);
-  width: 100%;
-  height: 200px;
   display: inline-block;
   border-radius: 20px 20px 0px 0px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center
 }
 
-.cardImg8 {
-  background-image: url(img/WO8ADTYBrqd6BunOnEocxOAS7c.webp.svg);
 
-  width: 100%;
-  height: 200px;
-  display: inline-block;
 
-  border-radius: 20px 20px 0px 0px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center
-}
-
-.cardImg9 {
-  background-image: url(img/XKmxgbyaDgBCY0OI7iczwdFvcU.webp.svg);
-
-  width: 100%;
-  height: 200px;
-  display: inline-block;
-
-  border-radius: 20px 20px 0px 0px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center
-}
-
-.cardImg10 {
-  background-image: url(img/cD0vsVdMfYV5dXwD5abiySgong.webp.svg);
-
-  width: 100%;
-  height: 200px;
-  display: inline-block;
-
-  border-radius: 20px 20px 0px 0px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center
-}
 
 .vertical-menu li {
   width: 100%;
@@ -381,25 +248,30 @@ ul {
   line-height: 20px;
 }
 
-.na {
-
-  padding-left: 38%;
+.navbar-nav {
+  margin: auto;
 
 }
 
+
 .svg {
-  margin-left: 85%;
-  background-color: #ffffff;
+  color: black;
+  font-size: 16px;
+  margin-left: 65%;
+  display: flex;
+  width: 27px;
+  height: 27px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+
   border-radius: 100px;
-  padding: 7px
+  background: #FFF;
 }
 
 svg {
   padding: 7px
-}
-
-.icon {
-  justify-content: center;
 }
 
 @media only screen and (max-width: 600px) {
@@ -417,13 +289,10 @@ svg {
 
   }
 
-  .icon {
-    overflow: scroll;
-    height: 85%;
-  }
 
 
-  .na {
+
+  .navbar-nav {
     padding-left: 0;
   }
 
@@ -433,10 +302,6 @@ svg {
     padding-top: 0;
   }
 
-  .sg {
-    display: flex;
-
-  }
 
   .list {
     display: block;
@@ -466,10 +331,7 @@ svg {
     width: 42vw;
   }
 
-  .icon {
-    overflow: scroll;
-    height: 85%;
-  }
+
 }
 
 
@@ -480,7 +342,7 @@ svg {
     margin-left: 5%;
   }
 
-  .na {
+  .navbar-nav {
     padding-left: 0;
   }
 
@@ -497,10 +359,7 @@ svg {
 
   }
 
-  .icon {
-    overflow: scroll;
-    height: 85%;
-  }
+
 
   .date {
     width: 42vw;
@@ -521,16 +380,6 @@ svg {
 
   }
 
-  .description {
-    margin: 180px 11px 0 0;
-    font-size: 14px;
-    color: #484848;
-    padding: 0 20px 1px 20px;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 12em;
-
-  }
 
 }
 
@@ -708,6 +557,7 @@ spam {
   margin: 5% 0 5% 0;
   border-radius: 20px;
   border: 1px solid rgba(17, 17, 17, 0.10);
+  position: relative;
 
 }
 
@@ -723,33 +573,23 @@ spam {
 }
 
 .price-stamp {
-  margin: -200px 0 0 12px;
+  position: absolute;
   color: #fff;
   font-weight: 900;
   font-size: 22px;
   text-shadow: 0 0 6px #615e61;
-  padding-left: 54px;
+  right: 10%;
+  top: 1%;
 }
 
 .description {
-  margin: 180px 11px 0 0;
+
   font-size: 14px;
   color: #484848;
-  padding: 0 20px 1px 20px;
-
+  padding: 20px;
+  /* height: 12em; */
 }
 
-#datepicker {
-  margin-left: 2%;
-  color: #111;
-
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 30px;
-  position: 2px;
-  padding: 6px;
-}
 
 .span {
   color: #000000;
@@ -800,19 +640,14 @@ spam {
 @media only screen and (max-width: 1282px) {
 
   .icon {
-    overflow: scroll;
-    height: 85%;
+
     top: 19%;
   }
 
   .description {
-    margin: 180px 11px 0 0;
-
-    flex-direction: column;
-    justify-content: space-between;
-    height: 10em;
-
+    height: 12em;
   }
+
 }
 
 @media only screen and (max-width: 1070px) {
@@ -820,10 +655,6 @@ spam {
     padding-top: 12%;
   }
 
-  .icon {
-    overflow: scroll;
-    height: 85%;
-  }
 
   .listBtn span {
     font-size: 12px !important;
@@ -850,22 +681,15 @@ spam {
   }
 
   .description {
-    margin: 180px 11px 0 0;
-
-    flex-direction: column;
-    justify-content: space-between;
-    /* height: 14em; */
-
+    height: 13em;
   }
+
 }
 
 @media only screen and (max-width: 1109px) {
 
 
-  .icon {
-    overflow: scroll;
-    height: 85%;
-  }
+
 
   .listBtn span {
     font-size: 12px !important;
@@ -892,25 +716,12 @@ spam {
     margin: 10px;
   }
 
-  .description {
-    margin: 180px 11px 0 0;
-
-    flex-direction: column;
-    justify-content: space-between;
-    /* height: 14em; */
-
-  }
 
 }
 
 @media only screen and (max-width: 1183px) {
 
 
-  .icon {
-    overflow: scroll;
-    height: 85%;
-  }
-
   .listBtn span {
     font-size: 12px !important;
   }
@@ -936,27 +747,18 @@ spam {
     margin: 10px;
   }
 
-  .description {
-    margin: 180px 11px 0 0;
 
-    flex-direction: column;
-    justify-content: space-between;
-    height: 9em;
-
-  }
 }
 
 @media only screen and (max-width: 1081px) {
-  .rowCards {
-    padding-top: 12%;
-  }
+
 
   .listBtn span {
     font-size: 12px !important;
   }
 
   .listBtn img {
-    width: 12px !important;
+    width: 10px !important;
   }
 
   .listBtn .icondate {
@@ -968,25 +770,16 @@ spam {
   }
 
   .rowCards {
-    padding-top: 10%;
+    padding-top: 14%;
   }
 
   .listBtn {
     margin: 10px;
   }
 
-  .description {
 
-    flex-direction: column;
-    justify-content: space-between;
-    height: 10em;
 
-  }
 
-  .icon {
-    overflow: scroll;
-    height: 85%;
-  }
 }
 
 @media only screen and (max-width: 1025px) {
@@ -1007,24 +800,18 @@ spam {
   }
 
   .rowCards {
-    padding: 10% 3%;
+    padding: 12% 3%;
   }
 
   .listBtn {
     margin: 1px;
+    width: 11em;
   }
 
-  .description {
 
-    flex-direction: column;
-    justify-content: space-between;
-    height: 11em;
-
-  }
 
   .icon {
-    overflow: scroll;
-    height: 85%;
+
     top: 157px;
   }
 }
@@ -1043,7 +830,7 @@ spam {
   }
 
   .svg {
-    margin-left: 75%;
+    margin-left: 42%;
   }
 
   .rowCards {
@@ -1054,17 +841,10 @@ spam {
     margin: 1px;
   }
 
-  .description {
 
-    flex-direction: column;
-    justify-content: space-between;
-    /* height: 14em; */
-
-  }
 
   .icon {
-    overflow: scroll;
-    height: 85%;
+
     top: 123px;
   }
 }
@@ -1074,13 +854,7 @@ spam {
     padding: 1% !important;
   }
 
-  .description {
 
-    flex-direction: column;
-    justify-content: space-between;
-    /* height: 14em; */
-
-  }
 }
 
 @media only screen and (max-width: 750px) {
@@ -1092,18 +866,7 @@ spam {
     width: 32%;
   }
 
-  .description {
 
-    flex-direction: column;
-    justify-content: space-between;
-    /* height: 14em; */
-
-  }
-
-  .icon {
-    overflow: scroll;
-    height: 85%;
-  }
 }
 
 @media only screen and (max-width: 740px) {
@@ -1111,36 +874,22 @@ spam {
     font-size: 12px !important;
   }
 
-  .description {
-
-    flex-direction: column;
-    justify-content: space-between;
-    /* height: 14em; */
-
+  .guest {
+    font-size: 11px;
+    display: flex;
   }
 
-  .icon {
-    overflow: scroll;
-    height: 85%;
-  }
+
 }
 
 @media only screen and (max-width: 730px) {
   .listBtn.date {
     font-size: 11px !important;
+    /* width: 32a%; */
   }
 
-  .icon {
-    overflow: scroll;
-    height: 85%;
-  }
 
-  .description {
 
-    flex-direction: column;
-    justify-content: space-between;
-    /* height: 14em; */
-  }
 }
 
 @media only screen and (max-width: 720px) {
@@ -1148,13 +897,7 @@ spam {
     font-size: 12px !important;
   }
 
-  .description {
 
-    flex-direction: column;
-    justify-content: space-between;
-    /* height: 14em; */
-
-  }
 }
 
 @media only screen and (max-width: 650px) {
@@ -1162,18 +905,8 @@ spam {
     font-size: 11px !important;
   }
 
-  .description {
 
-    flex-direction: column;
-    justify-content: space-between;
-    /* height: 14em; */
 
-  }
-
-  .icon {
-    overflow: scroll;
-    height: 85%;
-  }
 }
 
 @media only screen and (max-width: 605px) {
@@ -1198,13 +931,7 @@ spam {
     margin: 1%;
   }
 
-  .description {
 
-    flex-direction: column;
-    justify-content: space-between;
-    height: 11em;
-
-  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -1229,17 +956,18 @@ spam {
     margin: 1%;
   }
 
-  .description {
 
-    flex-direction: column;
-    justify-content: space-between;
-    /* height: 14em; */
+
+}
+
+@media only screen and (max-width: 584px) {
+  .listBtn {
+    width: 100%;
 
   }
 
-  .icon {
-    overflow: scroll;
-    height: 85%;
+  .containerCards {
+    margin-top: 11%;
   }
 }
 
@@ -1251,17 +979,7 @@ spam {
     margin-top: 2px;
   }
 
-  .icon {
-    overflow: scroll;
-    height: 85%;
-    top: 27%;
-  }
 
-  .list {
-    display: inline !important;
-
-
-  }
 
   .guest {
     display: inline;
@@ -1279,7 +997,7 @@ spam {
 
   .rowCards {
     margin-left: 4%;
-    margin-top: 21%;
+    margin-top: 10%;
   }
 
   .logoImg {
@@ -1287,10 +1005,7 @@ spam {
   }
 
   .description {
-
-    flex-direction: column;
-    justify-content: space-between;
-    /* height: 14em; */
+    height: 10em;
   }
 }
 
@@ -1307,11 +1022,6 @@ spam {
     width: 100%;
   }
 
-  .icon {
-    overflow: scroll;
-    height: 76%;
-
-  }
 
   .date {
     display: inline;
@@ -1332,13 +1042,6 @@ spam {
     padding-top: 26%;
   }
 
-  .description {
-
-    flex-direction: column;
-    justify-content: space-between;
-    /* height: 14em; */
-
-  }
 }
 
 @media only screen and (max-width: 476px) {
@@ -1355,8 +1058,7 @@ spam {
   }
 
   .icon {
-    overflow: scroll;
-    height: 76%;
+
     top: 21%;
   }
 
@@ -1367,31 +1069,27 @@ spam {
 
   .listBtn {
     margin: 1%;
+    width: 100%;
   }
 
   .logoImg {
-    margin-right: 30%;
+    margin-right: 0;
+  }
+
+  .btnDro {
+    width: 100%;
   }
 
   .rowCards {
     margin-left: 10%;
 
-    padding-top: 21%;
-  }
-
-  .description {
-
-    flex-direction: column;
-    justify-content: space-between;
-    /* height: 14em; */
-
+    padding-top: 15%;
   }
 }
 
 @media only screen and (max-width: 340px) {
   .icon {
-    overflow: scroll;
-    height: 85%;
+
     top: 28%
   }
 
@@ -1419,24 +1117,15 @@ spam {
     margin-right: 30%;
   }
 
-  .description {
 
-    flex-direction: column;
-    justify-content: space-between;
-    /* height: 14em; */
-
-  }
 }
+
 
 @media only screen and (max-width: 325px) {
   .rowCards {
     padding-top: 25%;
   }
 
-  .icon {
-    overflow: scroll;
-    height: 85%;
-  }
 
   .list {
     display: inline !important;
@@ -1462,16 +1151,7 @@ spam {
     margin-right: 30%;
   }
 
-  .description {
-    margin: 180px 11px 0 0;
-    font-size: 14px;
-    color: #484848;
-    padding: 0 20px 1px 20px;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 12em;
 
-  }
 }
 
 @media only screen and (max-width: 393px) {
@@ -1482,14 +1162,17 @@ spam {
 
   }
 
+  .listBtn {
+    width: 100%;
+  }
+
   .guest {
     display: inline;
     width: 100%;
   }
 
   .icon {
-    overflow: scroll;
-    height: 76%;
+
     top: 188px;
   }
 
@@ -1503,22 +1186,19 @@ spam {
   }
 
   .logoImg {
-    margin-right: 30%;
+    margin-right: 0%;
   }
 
   .rowCards {
     margin-left: 10%;
 
-    padding-top: 26%;
+    padding-top: 20%;
   }
 
-  .description {
-
-    flex-direction: column;
-    justify-content: space-between;
-    height: 10em;
-
+  .btnDro {
+    width: 100%;
   }
+
 }
 
 ::-webkit-scrollbar {
