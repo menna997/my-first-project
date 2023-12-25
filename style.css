@@ -3,24 +3,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
+
 }
 
 .icon {
   justify-content: center;
   overflow: scroll;
   height: 85%;
-}
-
-
-.dropdown-toggle::after {
-  display: inline-block;
-  margin-left: 0.255em;
-  vertical-align: 0.255em;
-  content: "";
-  border-top: 0.4em solid;
-  border-right: 0.3em solid transparent;
-  border-bottom: 0;
-  border-left: 0.3em solid transparent;
 }
 
 
@@ -80,7 +69,7 @@ header {
 
 }
 
-.imglogo {
+.imgLogo {
   margin: 43%;
 
 }
@@ -98,6 +87,43 @@ header {
 
 .listBtn {
   margin: 6px;
+  padding: 12px 8px;
+  justify-content: center;
+
+  text-align: center;
+  border-radius: 12px;
+}
+
+.listBtn .bi-calendar4 {
+
+
+  border-radius: 8px;
+
+  padding: 8px;
+
+  font-size: 16px;
+}
+
+.listBtn .bi-plus {
+
+  background: #fff;
+  padding: 3px 8px;
+  color: #ff4063;
+  border-radius: 8px;
+  margin-right: 6px;
+
+  font-size: 16px;
+}
+
+.listBtn .bi-dash {
+
+  background: #fff;
+  padding: 3px 8px;
+  color: #ff4063;
+  border-radius: 8px;
+  margin-left: 6px;
+
+  font-size: 16px;
 }
 
 .imgIcon {
@@ -114,26 +140,14 @@ header {
 
 .toggle-down {
   color: #111;
-  font-size: 15px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
+  margin: 0 16px;
 }
 
-.btnDro {
-  display: flex;
-  /* margin: 2px; */
-  padding: 6px px 10px;
-  gap: 87.69px;
-  border-radius: 12px;
-  background: #F3F3F2;
-  align-items: baseline;
-  justify-content: center;
-  align-content: stretch;
-  flex-wrap: nowrap;
 
-
-}
 
 ul.vertical-menu {
   width: 100%;
@@ -190,21 +204,19 @@ ul.vertical-menu {
 
 .vertical-menu li a.active {
   background-color: #04AA6D;
-  /* Add a green color to the "active/current" link */
+
   color: white;
 }
 
-.date {
+.listBtn span {
+  padding: 0px 78PX 0px 0px;
+  margin: 35px 0 0 0;
+  color: #111;
 
-  /* padding: 6px 10px; */
-  gap: 87.69px;
-  border-radius: 12px;
-  background: #F3F3F2;
-  align-items: baseline;
-  justify-content: center;
-  align-content: stretch;
-  flex-wrap: nowrap;
-
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px
 }
 
 
@@ -222,7 +234,7 @@ ul.vertical-menu {
   background: #F3F3F2;
 }
 
-.icondate {
+.iconDate {
   justify-content: center;
   align-items: center;
   margin-right: 6px;
@@ -254,7 +266,7 @@ ul {
 }
 
 
-.svg {
+.price-stamp .bi-suit-heart {
   color: black;
   font-size: 16px;
   margin-left: 65%;
@@ -270,7 +282,7 @@ ul {
   background: #FFF;
 }
 
-svg {
+.price-stamp .bi-suit-heart {
   padding: 7px
 }
 
@@ -280,9 +292,6 @@ svg {
     margin-left: 2%;
   }
 
-  .guest {
-    width: 42vw;
-  }
 
   .btnDro {
     width: 46vw;
@@ -327,9 +336,6 @@ svg {
     width: 40vw;
   }
 
-  .guest {
-    width: 42vw;
-  }
 
 
 }
@@ -352,12 +358,6 @@ svg {
 
   }
 
-  .guest {
-    font-size: 16px;
-    display: flex;
-    width: 42vw;
-
-  }
 
 
 
@@ -392,7 +392,7 @@ svg {
   padding-left: 5%;
   padding-top: -5%;
   margin-top: 0%;
-  /* /* margin-left: 61px; */
+
 }
 
 .rowCards {
@@ -406,14 +406,14 @@ svg {
   justify-content: center;
 }
 
-.sidenav {
+.sideNav {
   width: 61px;
   overflow: scroll;
 
   height: 100%;
   position: fixed;
   z-index: 1;
-  /* top: 18%; */
+
   left: 0;
   margin-bottom: 28px;
   background-color: #ffffff;
@@ -422,12 +422,12 @@ svg {
   justify-items: center;
   border: 1px solid #DCE0E0;
   border-top: none;
-  /* border-bottom-color: transparent;  */
+
   border-bottom: 2px solid transparent;
   border-left: none;
 }
 
-.sidenav img {
+.sideNav img {
 
 
   justify-content: center;
@@ -442,7 +442,6 @@ svg {
   width: 173%;
   height: 54px;
   margin-top: 2%;
-
   background: #F3F3F2;
   margin-left: 70%;
   font-style: normal;
@@ -450,16 +449,6 @@ svg {
   line-height: 20px;
 }
 
-.iconePos {
-  width: 32px;
-  height: 32px;
-  padding: 8px;
-  justify-content: center;
-  margin-left: 17px;
-
-  border-radius: 8px;
-  background: #FFF;
-}
 
 .sec {
   font-family: Circular, Helvetica, Arial, sans-serif;
@@ -482,10 +471,6 @@ span {
 
 }
 
-.guest {
-  width: 12vw;
-  border-radius: 12px;
-}
 
 
 
@@ -506,7 +491,6 @@ p {
 .prices p {
 
 
-  /* color: #484848; */
   margin-left: 5px;
   color: #484848;
   font-size: 14px;
@@ -526,7 +510,7 @@ spam {
 .prices h6 {
 
 
-  /* color: #484848; */
+
   margin-left: 5px;
   color: #000000;
   font-size: 14px;
@@ -541,7 +525,7 @@ spam {
   border-radius: 20px;
   border: 1px solid rgba(17, 17, 17, 0.10);
   margin-top: 8%;
-  /* width: 100%; */
+
 }
 
 .img:last-child {
@@ -552,7 +536,7 @@ spam {
   width: 100%;
   display: block;
   border: 1px solid;
-  /* border-radius: 20px; */
+
   padding: 0px;
   margin: 5% 0 5% 0;
   border-radius: 20px;
@@ -574,10 +558,7 @@ spam {
 
 .price-stamp {
   position: absolute;
-  color: #fff;
-  font-weight: 900;
-  font-size: 22px;
-  text-shadow: 0 0 6px #615e61;
+
   right: 10%;
   top: 1%;
 }
@@ -587,7 +568,7 @@ spam {
   font-size: 14px;
   color: #484848;
   padding: 20px;
-  /* height: 12em; */
+
 }
 
 
@@ -609,7 +590,7 @@ spam {
   min-height: 20px;
 }
 
-.titel {
+.title {
   color: #111;
 
   font-size: 17px;
@@ -619,9 +600,6 @@ spam {
   min-height: 22px;
 }
 
-.hidden {
-  visibility: hidden;
-}
 
 .iconPos {
   background: white;
@@ -656,19 +634,16 @@ spam {
   }
 
 
-  .listBtn span {
-    font-size: 12px !important;
-  }
 
   .listBtn img {
     width: 12px !important;
   }
 
-  .listBtn .icondate {
+  .listBtn .iconDate {
     width: 16px !important;
   }
 
-  .svg {
+  .price-stamp .bi-suit-heart {
     margin-left: 75%;
   }
 
@@ -689,21 +664,15 @@ spam {
 @media only screen and (max-width: 1109px) {
 
 
-
-
-  .listBtn span {
-    font-size: 12px !important;
-  }
-
   .listBtn img {
     width: 12px !important;
   }
 
-  .listBtn .icondate {
+  .listBtn .iconDate {
     width: 16px !important;
   }
 
-  .svg {
+  .price-stamp .bi-suit-heart {
     margin-left: 75%;
   }
 
@@ -722,19 +691,16 @@ spam {
 @media only screen and (max-width: 1183px) {
 
 
-  .listBtn span {
-    font-size: 12px !important;
-  }
 
   .listBtn img {
     width: 12px !important;
   }
 
-  .listBtn .icondate {
+  .listBtn .iconDate {
     width: 16px !important;
   }
 
-  .svg {
+  .price-stamp .bi-suit-heart {
     margin-left: 75%;
   }
 
@@ -753,19 +719,15 @@ spam {
 @media only screen and (max-width: 1081px) {
 
 
-  .listBtn span {
-    font-size: 12px !important;
-  }
-
   .listBtn img {
     width: 10px !important;
   }
 
-  .listBtn .icondate {
+  .listBtn .iconDate {
     width: 16px !important;
   }
 
-  .svg {
+  .price-stamp .bi-suit-heart {
     margin-left: 75%;
   }
 
@@ -783,19 +745,17 @@ spam {
 }
 
 @media only screen and (max-width: 1025px) {
-  .listBtn span {
-    font-size: 12px !important;
-  }
+
 
   .listBtn img {
     width: 12px !important;
   }
 
-  .listBtn .icondate {
+  .listBtn .iconDate {
     width: 16px !important;
   }
 
-  .svg {
+  .price-stamp .bi-suit-heart {
     margin-left: 75%;
   }
 
@@ -817,19 +777,16 @@ spam {
 }
 
 @media only screen and (max-width: 915px) {
-  .listBtn span {
-    font-size: 12px !important;
-  }
 
   .listBtn img {
     width: 12px !important;
   }
 
-  .listBtn .icondate {
+  .listBtn .iconDate {
     width: 16px !important;
   }
 
-  .svg {
+  .price-stamp .bi-suit-heart {
     margin-left: 42%;
   }
 
@@ -849,66 +806,6 @@ spam {
   }
 }
 
-@media only screen and (max-width: 930px) {
-  .guest {
-    padding: 1% !important;
-  }
-
-
-}
-
-@media only screen and (max-width: 750px) {
-  .listBtn.date {
-    font-size: 83%;
-  }
-
-  .listBtn.icondate {
-    width: 32%;
-  }
-
-
-}
-
-@media only screen and (max-width: 740px) {
-  .listBtn.date {
-    font-size: 12px !important;
-  }
-
-  .guest {
-    font-size: 11px;
-    display: flex;
-  }
-
-
-}
-
-@media only screen and (max-width: 730px) {
-  .listBtn.date {
-    font-size: 11px !important;
-    /* width: 32a%; */
-  }
-
-
-
-}
-
-@media only screen and (max-width: 720px) {
-  .listBtn span {
-    font-size: 12px !important;
-  }
-
-
-}
-
-@media only screen and (max-width: 650px) {
-  .listBtn span {
-    font-size: 11px !important;
-  }
-
-
-
-}
-
 @media only screen and (max-width: 605px) {
 
   .list {
@@ -917,20 +814,11 @@ spam {
 
   }
 
-  .guest {
-    display: inline;
-    width: 45%;
-  }
 
   .date {
     display: inline;
     width: 49%;
   }
-
-  .listBtn {
-    margin: 1%;
-  }
-
 
 }
 
@@ -942,18 +830,11 @@ spam {
 
   }
 
-  .guest {
-    display: inline;
-    width: 43%;
-  }
+
 
   .date {
     display: inline;
     width: 50%;
-  }
-
-  .listBtn {
-    margin: 1%;
   }
 
 
@@ -973,27 +854,21 @@ spam {
 
 @media only screen and (max-width: 545px) {
 
-  .svg {
+  .price-stamp .bi-suit-heart {
     margin-left: 87%;
-    /* padding-top: 8px; */
+
     margin-top: 2px;
   }
 
 
 
-  .guest {
-    display: inline;
-    width: 100%;
-  }
 
   .date {
     display: inline;
     width: 100%;
   }
 
-  .listBtn {
-    margin: 1%;
-  }
+
 
   .rowCards {
     margin-left: 4%;
@@ -1017,10 +892,6 @@ spam {
 
   }
 
-  .guest {
-    display: inline;
-    width: 100%;
-  }
 
 
   .date {
@@ -1028,9 +899,6 @@ spam {
     width: 100%;
   }
 
-  .listBtn {
-    margin: 1%;
-  }
 
   .logoImg {
     margin-right: 30%;
@@ -1052,10 +920,7 @@ spam {
 
   }
 
-  .guest {
-    display: inline;
-    width: 100%;
-  }
+
 
   .icon {
 
@@ -1068,7 +933,7 @@ spam {
   }
 
   .listBtn {
-    margin: 1%;
+
     width: 100%;
   }
 
@@ -1099,19 +964,13 @@ spam {
 
   }
 
-  .guest {
-    display: inline;
-    width: 82%;
-  }
 
   .date {
     display: inline;
     width: 82%;
   }
 
-  .listBtn {
-    margin: 1%;
-  }
+
 
   .logoImg {
     margin-right: 30%;
@@ -1133,19 +992,14 @@ spam {
 
   }
 
-  .guest {
-    display: inline;
-    width: 79%;
-  }
+
 
   .date {
     display: inline;
     width: 79%;
   }
 
-  .listBtn {
-    margin: 1%;
-  }
+
 
   .logoImg {
     margin-right: 30%;
@@ -1166,10 +1020,6 @@ spam {
     width: 100%;
   }
 
-  .guest {
-    display: inline;
-    width: 100%;
-  }
 
   .icon {
 
@@ -1181,9 +1031,6 @@ spam {
     width: 100%;
   }
 
-  .listBtn {
-    margin: 1%;
-  }
 
   .logoImg {
     margin-right: 0%;
@@ -1192,7 +1039,7 @@ spam {
   .rowCards {
     margin-left: 10%;
 
-    padding-top: 20%;
+    padding-top: 32%;
   }
 
   .btnDro {
